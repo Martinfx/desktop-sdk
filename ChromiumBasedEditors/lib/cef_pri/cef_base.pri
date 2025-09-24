@@ -7,6 +7,7 @@ DEFINES += \
 
 core_windows:CEF_SRC_PATH=$$PWD/../src/cef/windows
 core_linux:CEF_SRC_PATH=$$PWD/../src/cef/linux
+core_freebsd:CEF_SRC_PATH=$$PWD/../src/cef/freebsd
 core_mac:CEF_SRC_PATH=$$PWD/../src/cef/mac
 INCLUDEPATH += $$CEF_SRC_PATH
 

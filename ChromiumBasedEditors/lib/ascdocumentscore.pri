@@ -43,9 +43,9 @@ build_xp {
         QMAKE_CXXFLAGS += /std:c++17
     }
 
-    core_linux {
-        CONFIG += c++1z
-        build_gcc_less_6:INCLUDEPATH += $$PWD/src/polyfill
+    core_freebsd {
+    CONFIG += c++1z
+    build_gcc_less_6:INCLUDEPATH += $$PWD/src/polyfill
         cef_version_107 {
             DEFINES += CEF_VERSION_107
             CEF_PROJECT_PRI=$$PWD/cef_pri_107
